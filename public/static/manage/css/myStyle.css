@@ -1,0 +1,387 @@
+.selDiv{
+    width: 100%;
+}
+
+.selDiv ul{
+    border:1px solid #CCCCCC ;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.selDiv ul li{
+    height: 30px;
+    line-height: 30px;
+    font-size: 1em;
+    text-indent: 0.3em;
+    cursor:pointer;
+    white-space:nowrap
+}
+.selDiv ul li:hover{
+    background: #f5f5f5;
+    cursor:pointer;
+}
+
+.upPic img{
+    max-width: 100%;
+}
+
+.my-inline{
+    display: inline;
+}
+
+.searchMoreButton{
+    float: right;
+    margin-right: 15px;
+}
+
+.searchMore{
+    display: none;
+}
+
+.myQuestion{
+    /*border-top:5px solid #ddd;*/
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.myQuestion .m-b{
+    margin-bottom: 0;
+}
+#questionCategory{
+    display: none;
+}
+#questionList .float-e-margins{
+    position: relative;
+}
+
+.del-question{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+.lightgrey{
+    background: lightgrey;
+}
+
+.paging_simple_numbers{
+    min-height: 15px;
+}
+
+.chat-message{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mychat-discussion{
+    background: #ffffff;
+    height: 500px;
+    position: relative;
+}
+
+.mychat-users{
+    height: 500px;
+}
+
+.mymessage{
+    background: #e4eaec;
+    display: inline-block;
+}
+
+.mymessage-author{
+    font-size: 12px;
+    color: #7266ba;
+}
+.mymessage-author:hover{
+    color: #7266ba;
+}
+.mymessage-author span{
+    color: #9B9B9B;;
+}
+.mymessage .message-content{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.mymessage .message-content p{
+    margin: 0;
+}
+.mymessage-avatar{
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.mymessage .message-content img{
+    width: auto;
+    max-width: 300px;
+}
+
+.chat-discussion .myself .message-avatar {
+    float: right;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 0;
+}
+
+.chat-discussion .myself .message {
+    float: right;
+}
+.mybtn{
+    height: 40px;
+    border-top: 1px solid #ccc;
+}
+
+.mybtn a{
+    color: #888A92;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 10px 5px 0 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+a.mybtn-a-hover{
+    color: #7266ba;
+}
+
+.mybtn a:last-child{
+    float: right;
+}
+.mybtn a:first-child{
+    margin-left: 15px;
+}
+
+.mybtn a i{
+    font-size: 16px;
+}
+
+.hd-pic{
+    float: left !important;
+}
+.my-message-input{
+    resize: none;
+    height: 180px !important;
+    border: none;
+}
+
+.mymessage-input{
+    resize: none;
+    height: 200px !important;
+}
+
+.mytext-muted{
+    margin-left: 10px;
+}
+
+.comment{
+    margin-top: 5px;
+    display: block;
+    line-height: 18px;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+
+.comment-header-img{
+    border-radius: 50%;
+}
+
+.my-social-comment{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20px 15px 20px 5px;
+}
+
+.mychat-discussion2{
+    overflow: auto;
+    padding: 0;
+}
+.comment-author{
+    color: #7266ba;
+    position: relative;
+}
+.comment-author:hover{
+    color: #7266ba;
+}
+.op-user{
+    color:#888A92;
+    float: right;
+    margin-right: 3px
+}
+.op-user:hover{
+    color:#7266ba;
+}
+
+.message-del{
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    color: #888A92;
+}
+.message-del:hover{
+    color: red;
+}
+.myself .message-del{
+    right: auto;
+    left: -20px;
+}
+
+.mychat-discussion2 .social-comment .media-body .comment img{
+    width: auto;
+    max-width: 200px;
+}
+
+.my-media-body{
+    overflow: visible;
+}
+
+.my-dropdown-messages li div a{
+    color: #000000;
+}
+
+#show-guest-list{
+    cursor:pointer;
+    display: inline;
+}
+
+.guest-list{
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 100%;
+    z-index: 1000;
+    overflow-x: auto;
+    border-bottom: 2px solid #f2f2f2;
+    padding: 20px 0;
+    display: none;
+}
+.guest-list ul{
+    height: 100%;
+    background: #ffffff;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.guest-list ul,li{
+    list-style: none;
+}
+.guest-list ul li{
+    width: 100px;
+    padding: 0 8px;
+    display: inline-block;
+}
+.guest-list ul li img{
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+.guest-list ul li span{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+}
+
+.guest{
+    width: 100%;
+    height: 90px;
+    /*position: absolute;*/
+    /*bottom: 161px;*/
+    background: #f6f8f8;
+    padding-top: 10px;
+    display: none;
+    z-index: 1000;
+    border-top: 1px solid #ccc;
+}
+.guest ul,li{
+    list-style: none;
+    cursor:pointer;
+}
+.guest label{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    float: left;
+}
+.guest ul{
+    float: left;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.guest ul li {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    position: relative;
+    display: inline-block;
+}
+.guest ul li img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+}
+.guest ul li .com_check{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10000;
+    display: none;
+}
+
+.customer-checked .com_check{
+    display: block !important;
+}
+
+.guest ul li span{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+}
+
+.sortBtn{
+    cursor:pointer;
+}
+
+.sortBtn font{
+    float: right;
+}
+
+.sortBtn .sorting:after {
+    content: "\f0dc";
+    font-family: fontawesome;
+    color: rgba(50, 50, 50, 0.5);
+}
+.sortBtn .asc{
+    padding-right: 21px;
+    padding-top: 18px;
+    background: url(../css/plugins/images/sort_asc.png) no-repeat center right;
+}
+.sortBtn .desc{
+    padding-right: 21px;
+    padding-top: 18px;
+    background: url(../css/plugins/images/sort_desc.png) no-repeat center right;
+}
+
+.send-btn{
+    float: right;
+    margin: 15px 0 5px 0;
+}
